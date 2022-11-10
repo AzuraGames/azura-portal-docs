@@ -1,2 +1,5 @@
-# azura-portal-documentation
-azura games tech documentation portal
+# 使用说明
+在需要更新的时候，执行如下命令：
+```
+sh gitbook.sh '更新说明'
+```
