@@ -4,6 +4,10 @@
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/shalzz/zola-deploy-action?sort=semver)
 
 
+![Build Status](https://github.com/AzuraGames/azura-portal-documentation/actions/workflows/gitbook-action.yml/badge.svg?branch=gh-pages)
+
+
+
 ## 使用说明
 
 本文档会在更新master分支时自动部署；
