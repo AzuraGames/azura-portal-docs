@@ -12,7 +12,7 @@ jobs:
     - name: Build and Deploy           # https://github.com/ZanderZhao/gitbook-action/releases
       uses: ZanderZhao/gitbook-action@v1.2.4  # -> or ZanderZhao/gitbook-action@master.  If not use master click above, use latest please 
       with:                                   #    or fork this repo and use YourName/gitbook-action@master
-        token: ${{ secrets.ORGANIZATION_AZURAGAMES_TOKEN }}  # -> remember add this in settings/secrets as following
+        token: ${{ secrets.ORGANIZATION_PUBLIC_TOKEN }}  # -> remember add this in settings/secrets as following
         time_zone: Asia/Shanghai   # set time zone
         # source_branch: master             # clone source master
         # source_dir: source         # clone from source
