@@ -1,11 +1,20 @@
 # Summary
 
-* [入门指南](README.md)
+
+* [入门指南](Introduction/README.md)
+    * [概览](Introduction/HOME.md)
+    * [准备工作](Introduction/HOME.md)
+    * [快速开始](Introduction/HOME.md)
+    * [测试管理](Introduction/HOME.md)
+    * [常见问题](Introduction/HOME.md)
+    * [隐私政策](Introduction/HOME.md)
+* [内建账户](Feature-Auth/README.md)
+    * [功能介绍](Feature-Auth/FEATURE.md)
+    * [开发指南](Feature-Auth/GUIDE.md)
 * [集成说明](README.md)
 * [常见问题](Faq.md)
 * [数据分析](Faq.md)
 * [内嵌动态](Faq.md)
-* [内建账户](Faq.md)
 * [游戏好友](Faq.md)
 * [公告系统](Faq.md)
 * [成就系统](Faq.md)
