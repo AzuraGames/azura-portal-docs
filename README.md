@@ -1,6 +1,6 @@
 # Docs
 
-![Build Status](https://github.com/AzuraGames/azura-portal-documentation/actions/workflows/gitbook-action.yml/badge.svg?branch=gh-pages)
+![Build Status](https://github.com/AzuraGames/azura-portal-documentation/.github/workflows/gitbook-action.yml/badge.svg?branch=gh-pages)
 
 ## Changelog
 
