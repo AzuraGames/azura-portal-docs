@@ -37,15 +37,15 @@
     "pluginsConfig": {
         "chapter-fold":{},
         "github-buttons": {
-            "repo": "ITmxs/gitbook-Information-System-Engineer",
+            "repo": "AzuraGames/azura-portal-documentation",
             "types": [
                 "star"
             ],
             "size": "small"
         },
         "edit-link": {
-            "base": "https://github.com/ITmxs/gitbook-Information-System-Engineer/edit/master",
-            "label": "Edit This Page"
+            "base": "https://github.com/AzuraGames/azura-portal-documentation/edit/main",
+            "label": "编辑本页"
         },
         "pluginsConfig": {
             "expandable-chapters": {}
