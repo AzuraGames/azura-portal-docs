@@ -50,7 +50,7 @@
             "size": "small"
         },
         "edit-link": {
-            "base": "https://github.com/AzuraGames/azura-portal-documentation/edit/main",
+            "base": "https://github.com/AzuraGames/azura-portal-documentation/docs/edit/main",
             "label": "编辑本页"
         },
         "pluginsConfig": {
