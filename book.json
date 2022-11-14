@@ -4,14 +4,7 @@
     "author": "Mob",
     "language": "zh-hans",
     "gitbook": "3.2.3",
-    "root": ".",
-    "links":
-    {
-        "sidebar":
-        {
-            "Azura": "http://www.azuragame.com"
-        }
-    },
+    "root": "./docs",
     "structure": {
         "readme": "README.md"
     },
