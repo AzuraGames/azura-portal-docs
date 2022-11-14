@@ -1,8 +1,8 @@
 # Summary
 
 
-* [入门指南](Introduction/README.md)
-    * [概览](Introduction/HOME.md)
+* 入门指南
+    * [概览](Introduction/README.md)
     * [准备工作](Introduction/HOME.md)
     * [快速开始](Introduction/HOME.md)
     * [测试管理](Introduction/HOME.md)
