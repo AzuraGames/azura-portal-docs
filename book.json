@@ -16,6 +16,7 @@
         "prism", 
         "prism-themes",
         "chapter-fold",
+        "theme-api",
         "github-buttons@2.1.0",
         "edit-link",
         "splitter",
@@ -29,6 +30,7 @@
         "-search",
         "splitter",
         "-sharing",
+        "versions-select@^0.1.1",
         "page-footer-ex"
     ],
     "styles": {
@@ -36,6 +38,9 @@
     },
     "pluginsConfig": {
         "chapter-fold":{},
+        "theme-api": {
+            "theme": "dark"
+        },
         "github-buttons": {
             "repo": "AzuraGames/azura-portal-documentation",
             "types": [
@@ -49,6 +54,18 @@
         },
         "pluginsConfig": {
             "expandable-chapters": {}
+        },
+        "versions": {
+            "options": [
+                {
+                    "value": "http://doc.azuragame.com",
+                    "text": "v1.0.2"
+                },
+                {
+                    "value": "https://azuragames.github.io/azura-portal-documentation/",
+                    "text": "v1.0.1"
+                }
+            ]
         },
         "prism": {
             "css": [

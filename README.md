@@ -12,5 +12,5 @@
 不建议操作，可在需要更新的时候，执行如下命令：
 
 ```
-sh gitbook.sh '更新说明'
+sh script/gitbook.sh '更新说明'
 ```
