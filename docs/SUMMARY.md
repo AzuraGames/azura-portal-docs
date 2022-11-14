@@ -1,35 +1,48 @@
 # Summary
 
-### 基本使用
+## 基本使用
 
-    * 入门指南
-        * [概览](Introduction/README.md)
-        * [准备工作](Introduction/HOME.md)
-        * [快速开始](Introduction/HOME.md)
-        * [测试管理](Introduction/HOME.md)
-        * [常见问题](Introduction/HOME.md)
-        * [隐私政策](Introduction/HOME.md)
-    * [内建账户](Feature-Auth/README.md)
-        * [功能介绍](Feature-Auth/FEATURE.md)
-        * [开发指南](Feature-Auth/GUIDE.md)
+* [概览](started/overview.md)
+* [准备工作](started/get-ready.md)
+* [快速开始](started/quickstart.md)
+* [测试管理](started/test-accounts.md)
+* [常见问题](started/faq.md)
+* [隐私政策](started/agreement.md)
 
-### 扩展
+## 核心模块
 
-* [集成说明](README.md)
-* [常见问题](Faq.md)
-* [数据分析](Faq.md)
-* [内嵌动态](Faq.md)
-* [游戏好友](Faq.md)
-* [公告系统](Faq.md)
-* [成就系统](Faq.md)
-* [礼包系统](Faq.md)
-* [实时语音](Faq.md)
-* [即时通信](Faq.md)
-* [推送通知](Faq.md)
-* [数据存储](Faq.md)
+* 登录
+    * [功能介绍](core-login/features.md)
+    * [开发指南](core-login/guild/start.md)
+        * [功能接入](core-login/guild/start.md)
+        * [简单登录](core-login/guild/simple-login.md)
+    * [最佳实践](core-login/best-practice.md)  
+* [支付](core-pay/README.md)
+    * [功能介绍](core-pay/features.md)
+    * [最佳实践](core-pay/best-practice.md)
+* [公告](core-billboard/README.md)
+    * [功能介绍](core-billboard/features.md)
+    * [开发指南](core-billboard/best-practice.md)
+
+## 扩展模块
+
+* [礼包系统](modules/gift/README.md)
+* [数据分析](modules/analytics/README.md)
+* [游戏好友](modules/gift/README.md)
+* [成就系统](modules/gift/README.md)
+* [实时语音](modules/gift/README.md)
+* [即时通信](modules/gift/README.md)
+* [推送通知](modules/gift/README.md)
+* [数据存储](modules/gift/README.md)
+
+## 常见问题
+
+* [接入问题](faq/README.md)
+* [使用问题](faq/README.md)
+* [广告相关问题](faq/README.md)
 
 ----
 
-* [排行榜](Faq.md)
-* [云存档](Faq.md)
-* [防沉迷](Faq.md)
+* [排行榜](modules/gift/README.md)
+* [云存档](modules/gift/README.md)
+* [防沉迷](modules/gift/README.md)
