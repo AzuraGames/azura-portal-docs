@@ -3,24 +3,29 @@
     "description": "阿祖拉开发者文档",
     "author": "Mob",
     "language": "zh-hans",
+    "gitbook": "3.2.3",
     "root": ".",
     "links":
     {
         "sidebar":
         {
-            "Home": "http://www.azuragame.com"
+            "Azura": "http://www.azuragame.com"
         }
+    },
+    "structure": {
+        "readme": "README.md"
     },
     "plugins": [
         "-highlight", 
         "prism", 
         "prism-themes",
+        "expandable-chapters",
         "chapter-fold",
         "theme-api",
+        "multilingual-index",
         "github-buttons@2.1.0",
         "edit-link",
         "splitter",
-        "expandable-chapters",
         "back-to-top-button",
         "code",
         "pageview-count",
@@ -30,7 +35,6 @@
         "-search",
         "splitter",
         "-sharing",
-        "versions-select@^0.1.1",
         "page-footer-ex"
     ],
     "styles": {
@@ -38,6 +42,10 @@
     },
     "pluginsConfig": {
         "chapter-fold":{},
+        "multilingual-index": {
+            "enableSuper": false,
+            "index":"index.html"
+        },
         "theme-api": {
             "theme": "dark"
         },
@@ -55,17 +63,9 @@
         "pluginsConfig": {
             "expandable-chapters": {}
         },
-        "versions": {
-            "options": [
-                {
-                    "value": "http://doc.azuragame.com",
-                    "text": "v1.0.2"
-                },
-                {
-                    "value": "https://azuragames.github.io/azura-portal-documentation/",
-                    "text": "v1.0.1"
-                }
-            ]
+        "sidebar-style": {
+            "title": "开发者文档",
+            "author": "Mob"
         },
         "prism": {
             "css": [

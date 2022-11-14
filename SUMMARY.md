@@ -2,9 +2,7 @@
 
 ### 基本使用
 
----
-
-* [平台概览](started/overview.md)
+* [平台概览](docs/started/overview.md)
 * [准备工作](started/get-ready.md)
 * [快速开始](started/quickstart.md)
 * [测试管理](started/test-accounts.md)
@@ -12,8 +10,6 @@
 * [隐私政策](started/agreement.md)
 
 ### 核心模块
-
----
 
 * 登录
     * [功能介绍](core-login/features.md)
