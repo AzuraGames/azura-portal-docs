@@ -2,16 +2,16 @@
 
 ### 基本使用
 
-* 入门指南
-    * [概览](Introduction/README.md)
-    * [准备工作](Introduction/HOME.md)
-    * [快速开始](Introduction/HOME.md)
-    * [测试管理](Introduction/HOME.md)
-    * [常见问题](Introduction/HOME.md)
-    * [隐私政策](Introduction/HOME.md)
-* [内建账户](Feature-Auth/README.md)
-    * [功能介绍](Feature-Auth/FEATURE.md)
-    * [开发指南](Feature-Auth/GUIDE.md)
+    * 入门指南
+        * [概览](Introduction/README.md)
+        * [准备工作](Introduction/HOME.md)
+        * [快速开始](Introduction/HOME.md)
+        * [测试管理](Introduction/HOME.md)
+        * [常见问题](Introduction/HOME.md)
+        * [隐私政策](Introduction/HOME.md)
+    * [内建账户](Feature-Auth/README.md)
+        * [功能介绍](Feature-Auth/FEATURE.md)
+        * [开发指南](Feature-Auth/GUIDE.md)
 
 ### 扩展
 
