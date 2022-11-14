@@ -13,9 +13,8 @@
 
 * 登录
     * [功能介绍](core-login/features.md)
-    * 开发指南
-        * [功能接入](core-login/guild/start.md)
-        * [简单登录](core-login/guild/simple-login.md)
+        * [功能接入](core-login/guide/start.md)
+        * [简单登录](core-login/guide/simple-login.md)
     * [最佳实践](core-login/best-practice.md)  
 * 支付
     * [功能介绍](core-pay/features.md)
@@ -28,21 +27,21 @@
 
 * [礼包系统](modules/gift/README.md)
 * [数据分析](modules/analytics/README.md)
-* [游戏好友](modules/gift/README.md)
-* [成就系统](modules/gift/README.md)
-* [实时语音](modules/gift/README.md)
-* [即时通信](modules/gift/README.md)
-* [推送通知](modules/gift/README.md)
-* [数据存储](modules/gift/README.md)
+* [游戏好友](modules/gift/README2.md)
+* [成就系统](modules/gift/README3.md)
+* [实时语音](modules/gift/README4.md)
+* [即时通信](modules/gift/README5.md)
+* [推送通知](modules/gift/README6.md)
+* [数据存储](modules/gift/README7.md)
 
 ### 常见问题
 
 * [接入问题](faq/README.md)
-* [使用问题](faq/README.md)
-* [广告相关问题](faq/README.md)
+* [使用问题](faq/README2.md)
+* [广告相关问题](faq/READM3E.md)
 
 ----
 
-* [排行榜](modules/gift/README.md)
-* [云存档](modules/gift/README.md)
-* [防沉迷](modules/gift/README.md)
+* [排行榜](modules/gift/README1.md)
+* [云存档](modules/gift/README11.md)
+* [防沉迷](modules/gift/README111.md)
