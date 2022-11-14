@@ -4,7 +4,7 @@
     "author": "Mob",
     "language": "zh-hans",
     "gitbook": "3.2.3",
-    "root": "./docs",
+    "root": "./",
     "structure": {
         "readme": "README.md"
     },
