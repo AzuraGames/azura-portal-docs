@@ -1,15 +1,15 @@
 # Summary
 
-## 基本使用
+### 基本使用
 
-* [概览](started/overview.md)
+* [平台概览](started/overview.md)
 * [准备工作](started/get-ready.md)
 * [快速开始](started/quickstart.md)
 * [测试管理](started/test-accounts.md)
 * [常见问题](started/faq.md)
 * [隐私政策](started/agreement.md)
 
-## 核心模块
+### 核心模块
 
 * 登录
     * [功能介绍](core-login/features.md)
@@ -24,7 +24,7 @@
     * [功能介绍](core-billboard/features.md)
     * [开发指南](core-billboard/best-practice.md)
 
-## 扩展模块
+### 扩展模块
 
 * [礼包系统](modules/gift/README.md)
 * [数据分析](modules/analytics/README.md)
@@ -35,7 +35,7 @@
 * [推送通知](modules/gift/README.md)
 * [数据存储](modules/gift/README.md)
 
-## 常见问题
+### 常见问题
 
 * [接入问题](faq/README.md)
 * [使用问题](faq/README.md)
