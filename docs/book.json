@@ -1,0 +1,76 @@
+{
+    "title": "Azura Games Docs",
+    "description": "阿祖拉开发者文档",
+    "author": "Mob",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": "./docs",
+    "structure": {
+        "readme": "README.md"
+    },
+    "plugins": [
+        "-highlight", 
+        "prism", 
+        "prism-themes",
+        "expandable-chapters",
+        "chapter-fold",
+        "theme-api",
+        "multilingual-index",
+        "github-buttons@2.1.0",
+        "edit-link",
+        "splitter",
+        "back-to-top-button",
+        "code",
+        "pageview-count",
+        "popup",
+        "search-plus",
+        "-lunr",
+        "-search",
+        "splitter",
+        "-sharing",
+        "page-footer-ex"
+    ],
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "pluginsConfig": {
+        "chapter-fold":{},
+        "multilingual-index": {
+            "enableSuper": false,
+            "index":"index.html"
+        },
+        "theme-api": {
+            "theme": "dark"
+        },
+        "github-buttons": {
+            "repo": "AzuraGames/azura-portal-documentation",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        },
+        "edit-link": {
+            "base": "https://github.com/AzuraGames/azura-portal-documentation/edit/main",
+            "label": "编辑本页"
+        },
+        "pluginsConfig": {
+            "expandable-chapters": {}
+        },
+        "sidebar-style": {
+            "title": "开发者文档",
+            "author": "Mob"
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-solarizedlight.css"
+            ]
+        },
+        "page-footer-ex":
+        {
+            "copyright": " Copyright © [Azura Games](http://www.azuragame.com) 2022 ",
+            "markdown": true,
+            "update_label": "此页面修订于：",
+            "update_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}
