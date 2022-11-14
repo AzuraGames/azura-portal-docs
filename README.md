@@ -1,11 +1,11 @@
-# Azura Games Documentation
+# Azura Docs
 
 ![Build Status](https://github.com/AzuraGames/azura-portal-documentation/actions/workflows/gitbook-action.yml/badge.svg?branch=gh-pages)
 
 
 ## 使用说明
 
-本文档会在更新master分支时自动部署；
+本文档会在更新 ``` main ``` 分支时自动部署；
 
 ## 手动更新
 

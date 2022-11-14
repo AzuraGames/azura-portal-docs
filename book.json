@@ -1,0 +1,72 @@
+{
+    "title": "Azura Games Docs",
+    "description": "阿祖拉开发者文档",
+    "author": "Mob",
+    "language": "zh-hans",
+    "root": ".",
+    "links":
+    {
+        "sidebar":
+        {
+            "Home": "http://www.azuragame.com"
+        }
+    },
+    "plugins": [
+        "-highlight", 
+        "prism", 
+        "prism-themes",
+        "chapter-fold",
+        "github-buttons@2.1.0",
+        "edit-link",
+        "splitter",
+        "tbfed-pagefooter",
+        "expandable-chapters",
+        "back-to-top-button",
+        "code",
+        "pageview-count",
+        "popup",
+        "search-plus",
+        "-lunr",
+        "-search",
+        "splitter",
+        "-sharing",
+        "page-footer-ex"
+    ],
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "pluginsConfig": {
+        "chapter-fold":{},
+        "github-buttons": {
+            "repo": "ITmxs/gitbook-Information-System-Engineer",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        },
+        "edit-link": {
+            "base": "https://github.com/ITmxs/gitbook-Information-System-Engineer/edit/master",
+            "label": "Edit This Page"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "&copy luckly FED Team",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "pluginsConfig": {
+            "expandable-chapters": {}
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-solarizedlight.css"
+            ]
+        },
+        "page-footer-ex":
+        {
+            "copyright": "By [Azura Games](http://www.azuragame.com)",
+            "markdown": true,
+            "update_label": "此页面修订于：",
+            "update_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}
