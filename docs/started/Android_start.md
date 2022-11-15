@@ -14,6 +14,8 @@ channelId	|渠道 ID，目前固定为“GP”
 ### 2. 引入Android studio 依赖 ###
 ##### 1）在工程的根目录gradle中加入maven仓库的引用地址 #####
 
+ <img src="../images/Android_1.png" width = "500" height = "400" alt="Android_1" align=center />
+
     buildscript {
     	repositories {
         	google()
@@ -46,7 +48,7 @@ channelId	|渠道 ID，目前固定为“GP”
 ##### 2）在工程的app gradle  dependencies中加入aar引用并加上google配置 #####
 
 在最顶部加入   
-
+ <img src="../images/Android_2.png" width = "420" height = "190" alt="Android_2" align=center />
 
     apply plugin: 'com.google.gms.google-services'
 	// Apply the Crashlytics Gradle plugin 这个一定要加在com.google.gms.google-services之后
@@ -54,6 +56,7 @@ channelId	|渠道 ID，目前固定为“GP”
 
 
 在依赖中加入
+ <img src="../images/Android_3.png" width = "500" height = "150" alt="Android_3" align=center />
 
     implementation 'com.myLegend.secondsdk:mySecondSdkaar:2.4.5'
 
@@ -63,10 +66,13 @@ channelId	|渠道 ID，目前固定为“GP”
 sdk_config文件中配置正式域名和测试域名，
 adjust_config.xml 文件中配置adjust事件token
 
+ <img src="../images/Android_4.png" width = "400" height = "150" alt="Android_4" align=center />
+
 ##### 4）开启Androidx插件 #####
 
 在gradle.properties中添加下面的代码 
 
+ <img src="../images/Android_5.png" width = "500" height = "150" alt="Android_5" align=center />
     // Android 插件会使用对应的 AndroidX 库而非支持库。
 	android.useAndroidX=true
 	// Android 插件会通过重写现有第三方库的二进制文件，自动将这些库迁移为使用 AndroidX，但并不完全自动。
@@ -74,6 +80,7 @@ adjust_config.xml 文件中配置adjust事件token
 
 然后在项目build.gradle里添加
 
+<img src="../images/Android_6.png" width = "540" height = "250" alt="Android_6" align=center />
     android {
 	...
 	...
@@ -114,6 +121,9 @@ adjust_config.xml 文件中配置adjust事件token
         android:supportsRtl="true"
         android:networkSecurityConfig="@xml/network_security_config"
         android:theme="@style/AppTheme">
+
+
+<img src="../images/Android_7.png" width = "550" height = "200" alt="Android_7" align=center />
 
 <font color=red size=2>为了适配targetSdkVersion 28,需要加入以下配置，不加入可能会无法使用http链接
 在application标签下加上</font>
@@ -249,6 +259,11 @@ Facebook所需要配置的参数
   	<string name="facebook_app_id" translatable="false">自己的Facebook id</string>
 	<string name="fb_login_protocol_scheme" translatable="false">fb自己的Facebook id</string>
 	<string name="facebook_client_token">Facebook token参数</string>
+
+	<string  name="google_singin_key" translatable="false">Google 登录id</string>
+
+
+至此所需的sdk前置配置都已完成，可以进行下一步sdk的接入了
 
 
 
