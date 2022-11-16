@@ -5,8 +5,9 @@
 * [概览](README.md)
 * [准备工作](started/get-ready.md)
 * [快速开始](started/quickstart.md)
-  * [Android 开始配置](started/Android_start.md)
-* [测试管理](started/test-accounts.md)
+    * [Android 开始配置](started/Android_start.md)
+* [发布流程](started/publish.md)
+    * [测试用户](started/test-accounts.md)
 * [常见问题](started/faq.md)
 * [隐私政策](started/agreement.md)
 
