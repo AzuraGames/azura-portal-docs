@@ -6,6 +6,7 @@
 * [准备工作](started/get-ready.md)
 * [快速开始](started/quickstart.md)
     * [Android 开始配置](started/Android_start.md)
+    * [iOSSDK接入](started/ios-start.md)
 * [发布流程](started/publish.md)
     * [测试用户](started/test-accounts.md)
 * [常见问题](started/faq.md)
@@ -17,10 +18,12 @@
     * [功能介绍](core-login/features.md)
         * [功能接入](core-login/guide/start.md)
         	* [Android](core-login/Android_login.md)
+        	* [iOS登录](core-login/iOS-login.md)
         * [简单登录](core-login/guide/simple-login.md)
     * [最佳实践](core-login/best-practice.md)  
 * 支付
     * [功能介绍](core-pay/features.md)
+    * [iOS支付](core-pay/iOS-pay.md)
     * [最佳实践](core-pay/best-practice.md)
 * 公告
     * [功能介绍](core-billboard/features.md)
