@@ -15,6 +15,7 @@
 * 登录
     * [功能介绍](core-login/features.md)
         * [功能接入](core-login/guide/start.md)
+        	* [Android](core-login/Android_login.md)
         * [简单登录](core-login/guide/simple-login.md)
     * [最佳实践](core-login/best-practice.md)  
 * 支付

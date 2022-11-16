@@ -58,7 +58,7 @@ channelId	|渠道 ID，目前固定为“GP”
 在依赖中加入
  <img src="../images/Android_3.png" width = "500" height = "150" alt="Android_3" align=center />
 
-    implementation 'com.myLegend.secondsdk:mySecondSdkaar:2.4.5'
+    implementation 'com.myLegend.secondsdk:mySecondSdkaar:2.4.8'
 
 
 ##### 3）必须拷贝assets里的配置文件 #####
@@ -153,7 +153,7 @@ adjust_config.xml 文件中配置adjust事件token
 	加上screenSize|orientation|keyboardHidden|navigation防止屏幕旋转的时候重建	
 	控制软键盘的弹出与隐藏:android:windowSoftInputMode="stateHidden|adjustPan"-->
 
-    <activity
+    	<activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
             android:launchMode="singleTask"
