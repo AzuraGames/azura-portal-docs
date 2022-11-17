@@ -93,8 +93,8 @@
 #### 3.2.2 关闭账号管理界面回调
 > *玩家关闭了账号管理界面，通常用不到这个回调*
 ```OC
-[ROCSdkManager manager].changeAccBlock = ^{
-    NSLog(@"确认了要切换账号");
+[ROCSdkManager manager].closeAccVCompleteBlock = ^{
+        NSLog(@"关闭账号管理界面");
 };
 ```
 
